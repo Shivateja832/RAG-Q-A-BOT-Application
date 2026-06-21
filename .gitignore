@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Vector store (rebuilt by index.py -- don't commit generated index artifacts)
+vector_store/
+
+# OS / editor
+.DS_Store
+.vscode/
+*.swp
+
+# Streamlit
+.streamlit/secrets.toml
